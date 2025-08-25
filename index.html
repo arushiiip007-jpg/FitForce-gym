@@ -1,13 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitForce Gym - Transform Your Body</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">FitForce</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>TRANSFORM YOUR BODY</h1>
+            <p>Unleash your potential with state-of-the-art equipment, expert trainers, and a community that pushes you to be your best self.</p>
+            <a href="#membership" class="cta-button">Start Your Journey</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💪</div>
+                    <h3>Strength Training</h3>
+                    <p>Build muscle and increase power with our comprehensive strength training programs and top-tier equipment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">❤️</div>
+                    <h3>Cardio Workouts</h3>
+                    <p>Improve your cardiovascular health with high-energy cardio sessions that keep you motivated and engaged.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🧘</div>
+                    <h3>Yoga & Flexibility</h3>
+                    <p>Enhance your flexibility and find inner peace with our yoga and stretching classes led by certified instructors.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍💼</div>
+                    <h3>Personal Training</h3>
+                    <p>Get personalized attention and customized workout plans from our experienced personal trainers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3>Group Classes</h3>
+                    <p>Stay motivated and have fun with our dynamic group fitness classes designed for all fitness levels.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🥗</div>
+                    <h3>Nutrition Guidance</h3>
+                    <p>Fuel your body right with expert nutritional advice and meal planning to complement your fitness journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="membership">
+        <div class="container">
+            <h2 class="section-title">Membership Plans</h2>
+            <div class="membership-grid">
+                <div class="membership-card">
+                    <h3 class="plan-name">Basic</h3>
+                    <div class="plan-price">$29</div>
+                    <div class="plan-duration">per month</div>
+                    <ul class="plan-features">
+                        <li>Gym Access (6am - 10pm)</li>
+                        <li>Basic Equipment Access</li>
+                        <li>Locker Room Access</li>
+                        <li>Free WiFi</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Choose Plan</a>
+                </div>
+                <div class="membership-card featured">
+                    <h3 class="plan-name">Premium</h3>
+                    <div class="plan-price">$59</div>
+                    <div class="plan-duration">per month</div>
+                    <ul class="plan-features">
+                        <li>24/7 Gym Access</li>
+                        <li>All Equipment Access</li>
+                        <li>Group Classes Included</li>
+                        <li>Personal Training (2x/month)</li>
+                        <li>Nutrition Consultation</li>
+                        <li>Premium Locker</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Choose Plan</a>
+                </div>
+                <div class="membership-card">
+                    <h3 class="plan-name">Elite</h3>
+                    <div class="plan-price">$99</div>
+                    <div class="plan-duration">per month</div>
+                    <ul class="plan-features">
+                        <li>24/7 VIP Gym Access</li>
+                        <li>All Premium Equipment</li>
+                        <li>Unlimited Group Classes</li>
+                        <li>Weekly Personal Training</li>
+                        <li>Monthly Body Composition</li>
+                        <li>Guest Passes (4x/month)</li>
+                        <li>Towel Service</li>
+                    </ul>
+                    <a href="#contact" class="cta-button">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Our Gym</h3>
+                    <p>📍 Sindhya Nagar Bhilai</p>
+                    <p>📞 (91) 678976445</p>
+                    <p>✉️ info@fitforcegym.com</p>
+                    <p>🕒 Mon-Sun: 5:00 AM - 12:00 AM</p>
+                    
+                    <h3>Follow Us</h3>
+                    <p>Stay connected and get daily motivation on our social media channels!</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your fitness goals..."></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FitForce Gym. All rights reserved. Transform your life today!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
